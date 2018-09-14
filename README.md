@@ -1,4 +1,4 @@
-# UmbrellaPythonSamples
+# Cisco Umbrella Python Samples
 
 This repository contains some examples of scripts that work with the Cisco Umbrella Enforcement and Investigate API. Please use these scripts as example only.
 
