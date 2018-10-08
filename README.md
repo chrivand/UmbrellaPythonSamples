@@ -6,6 +6,7 @@ Included scripts:
 * Enforcement POST, GET and DELETE requests 
 * Investigate GET and POST requests for Domain Status 
 * Investigate GET request to retrieve top associated Threat Grid Sample to domain.
+* SANS suspiciousdomains_High.txt parser
 
 More info on the Cisco Umbrella Enforcement API: https://docs.umbrella.com/enforcement-api/reference/
 
