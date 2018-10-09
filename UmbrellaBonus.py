@@ -78,10 +78,13 @@ try:
                     print("\n")
                     print("SUCCESS: The domain %(domain)s has an associated sample with Hash: %(hash)s and Threat Score: %(score)i at %(time)s" % {'domain': domain, 'hash': hashSample, 'score': scoreSample, 'time': time})
                     print("\n")
+                # error handling
+                else:
+                    print("An error has ocurred with the following code %(error)s, please consult the following link: https://docs.umbrella.com/investigate-api/" % {'error': reqPost.status_code})
 
         else:
         	# error handling
-        	print("An error has ocurred with the following code %(error)s, please consult the following link: https://docs.umbrella.com/investigate-api/" % {'error': reqGet.status_code})
+        	print("An error has ocurred with the following code %(error)s, please consult the following link: https://docs.umbrella.com/enforcement-api/reference/" % {'error': reqGet.status_code})
 
 except KeyboardInterrupt:
     print("\nExiting...\n")
